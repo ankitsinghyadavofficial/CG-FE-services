@@ -10,9 +10,7 @@ app.get('/', (req, res) => {
 
 // ye kisi aur ka kaam h jo tumhare pull ke bad aya 
 
-app.post('/api/data', (req, res) => {
-  res.json({ message: 'Data received', data: req.body });
-});
+
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
