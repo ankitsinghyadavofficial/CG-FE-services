@@ -10,7 +10,11 @@ app.get('/', (req, res) => {
 
 app.post('/api/data', (req, res) => {
   res.json({ message: 'Data received', data: req.body });
+  console.log("ankur ka 2nd work")
 });
+
+// ankur ka 2nd work
+
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
