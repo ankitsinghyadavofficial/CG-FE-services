@@ -8,6 +8,8 @@ app.get('/', (req, res) => {
   res.send('Hello, Server is running!');
 });
 
+// ye kisi aur ka kaam h jo tumhare pull ke bad aya 
+
 app.post('/api/data', (req, res) => {
   res.json({ message: 'Data received', data: req.body });
   console.log("ankur ka 2nd work")
