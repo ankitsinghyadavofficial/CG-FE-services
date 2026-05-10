@@ -8,9 +8,7 @@ app.get('/', (req, res) => {
   res.send('Hello, Server is running!');
 });
 
-app.post('/api/data', (req, res) => {
-  res.json({ message: 'Data received', data: req.body });
-});
+
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
